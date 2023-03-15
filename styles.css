@@ -26,7 +26,7 @@ body{
     flex-direction: column;
 }
 label{
-    color: white;
+    color: #ffffff;
     text-align: center;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +38,7 @@ label{
     border: 0;
     border-radius: 20px;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 800;
@@ -53,6 +53,9 @@ label{
     border: 0;
     border-radius: 20px;
 }
+.gridSpot{
+    
+}
 #brush{
     display: flex;
     flex-direction: column;
@@ -64,7 +67,10 @@ label{
     background-color: #c9c9c9;
     min-height: 600px;
     min-width: 600px;
+    padding: 5px;
+    display: grid;
 }
+
 #clear{
     min-width: 250px;
     min-height: 500px;
