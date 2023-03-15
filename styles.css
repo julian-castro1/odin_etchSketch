@@ -53,9 +53,6 @@ label{
     border: 0;
     border-radius: 20px;
 }
-.gridSpot{
-    
-}
 #brush{
     display: flex;
     flex-direction: column;
@@ -65,12 +62,19 @@ label{
 }
 #grid{
     background-color: #c9c9c9;
-    min-height: 600px;
-    min-width: 600px;
+    height: 600px;
+    width: 600px;
     padding: 5px;
+    margin: 0;
     display: grid;
 }
-
+#gridContainer{
+    background-color: #c9c9c9;
+        height: 600px;
+        width: 600px;
+        padding: 5px;
+        margin: 0;
+}
 #clear{
     min-width: 250px;
     min-height: 500px;
